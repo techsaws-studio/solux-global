@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --secondary-background: #f8f9fc;
+
+    --heading: #0f172a;
+    --foreground: #1e293b;
+    --paragraph: #4b5563;
+
+    --card: #f8f9fc;
+    --card-foreground: #4b5563;
+
+    --popover: #f8f9fc;
+    --popover-foreground: #4b5563;
+
+    --primary: #0c509b;
+    --primary-foreground: #ffffff;
+    --primary-hover: #0a417d;
+
+    --secondary: #0891b2;
+    --secondary-foreground: #ffffff;
+    --secondary-hover: #067b96;
+
+    --muted: #e5e7eb;
+    --muted-foreground: #64748b;
+    --muted-hover: #d1d5db;
+
+    --accent: #14b8a6;
+    --accent-foreground: #ffffff;
+    --accent-hover: #0d9488;
+
+    --destructive: #e63946;
+    --destructive-foreground: #ffffff;
+
+    --border: #e2e8f0;
+    --input: #cbd5e1;
+    --ring: #0c509b;
+
+    --radius: 0.65rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--paragraph);
+  font-family: var(--font-inter), sans-serif;
+  text-rendering: optimizeLegibility;
+  border: var(--border);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-orbitron), sans-serif;
+  color: var(--heading);
+}
