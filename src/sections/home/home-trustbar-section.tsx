@@ -35,56 +35,26 @@ export default function HomeTrustbarSection() {
   ];
 
   return (
-    <div className="relative -mt-12 md:-mt-16 z-10">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="bg-white rounded-full shadow-lg">
-          <div className="hidden md:grid grid-cols-4 gap-6 p-8">
+    <div className="relative my-8 lg:-mt-[4.6rem] z-10">
+      <div className="mx-auto lg:max-w-5xl layout-standard">
+        <div className="bg-white lg:rounded-full rounded-lg shadow-lg border border-border">
+          <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 lg:p-8 p-4">
             {stats.map((stat, index) => (
               <div
                 key={index}
                 className={`text-center relative ${
-                  index !== stats.length - 1
-                    ? "md:border-r border-[#0C509B30]"
-                    : ""
+                  index !== stats.length - 1 ? "md:border-r border-border" : ""
                 }`}
               >
                 {index !== stats.length - 1 && (
-                  <div className="absolute right-0 top-6 bottom-6 border-r border-[#0C509B30]" />
+                  <div className="absolute right-0 top-6 bottom-6 border-r border-border" />
                 )}
 
-                <p
-                  className="text-5xl md:text-6xl font-bold"
-                  
-                >
+                <p className="lg:text-4xl md:text-2xl text-lg font-bold font-dm_sans text-heading">
                   {typeof stat.value === "number" ? stat.value : stat.value}
                   {stat.suffix}
                 </p>
-                <p
-                  className="text-sm md:text-lg font-semibold mt-3"
-                  style={{ color: "#0C509B" }}
-                >
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="md:hidden flex items-center justify-between overflow-x-auto gap-3 p-4 sm:p-5">
-            {stats.map((stat, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 text-center min-w-[22%]"
-              >
-                <p className="text-2xl font-bold" style={{ color: "#0C509B" }}>
-                  {typeof stat.value === "number" ? stat.value : stat.value}
-                  {stat.suffix}
-                </p>
-                <p
-                  className="text-[10px] font-semibold mt-1 leading-snug"
-                  style={{ color: "#0C509B" }}
-                >
-                  {stat.label}
-                </p>
+                <p className="lg:text-base md:text-sm text-xs font-medium">{stat.label}</p>
               </div>
             ))}
           </div>

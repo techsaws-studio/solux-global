@@ -84,7 +84,7 @@ export const defaultMetadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: BASE_URL,
+    url: `${BASE_URL}/social/og-default.png`,
     title: "Medical Billing Company USA | Solux Global",
     description:
       "Solux Global provides expert medical billing & coding services in the USA. Boost revenue, reduce denials, and streamline your practice with HIPAA-compliant billing.",
@@ -104,7 +104,7 @@ export const defaultMetadata: Metadata = {
     title: "Medical Billing Company USA | Solux Global",
     description:
       "Solux Global provides expert medical billing & coding services in the USA. Boost revenue, reduce denials, and streamline your practice with HIPAA-compliant billing.",
-    images: [`${BASE_URL}/social/twitter-preview.jpg`],
+    images: [`${BASE_URL}/social/twitter-preview.png`],
     creator: "@TechSaws",
   },
 
