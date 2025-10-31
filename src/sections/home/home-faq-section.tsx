@@ -76,8 +76,8 @@ function HomeFAQSection() {
               viewport={{ once: true }}
             >
               <div>
-                <h2 className="text-2xl md:text-4xl font-medium font-dm_sans mb-4">
-                  Frequently Asked Questions
+                <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold mb-4">
+                 Frequently Asked <span className="text-secondary">Questions</span>
                 </h2>
                 <p className="md:text-base text-sm leading-relaxed mb-8">
                   To start with Solux Global, contact us to schedule a

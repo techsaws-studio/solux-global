@@ -11,15 +11,15 @@ function HomeTestimonialSection() {
     <section className="section-padding-standard bg-secondary-background">
       <div className="layout-standard section-padding-standard max-md:pt-4 max-md:mb-0 grid grid-cols-1 lg:grid-cols-4 gap-12 items-center">
         <motion.div
-          className="space-y-8 md:col-span-3"
+          className="space-y-8 lg:col-span-3"
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
           <div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-foreground mb-2 font-dm_sans">
-              Customer Testimonials
+            <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold mb-2">
+              Customer <span className="text-secondary">Testimonial</span>
             </h2>
             <p className="text-base font-medium md:text-lg text-muted-foreground italic">
               You shouldn&apos;t only{" "}

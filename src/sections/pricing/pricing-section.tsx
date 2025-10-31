@@ -13,7 +13,7 @@ function PricingSection() {
   return (
     <section className="bg-secondary-background section-padding-standard">
       <div className="layout-standard section-padding-standard">
-        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-10 md:mb-8 mb-6">
+        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold text-center lg:mb-10 md:mb-8 mb-6">
           Choose your <span className="text-secondary">Plan</span>
         </h2>
 
@@ -56,8 +56,6 @@ function PricingSection() {
             </motion.div>
           ))}
         </div>
-
-        
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ function HomeWhyChooseUsSection() {
   return (
     <section className="section-padding-standard bg-background pt-0">
       <div className="layout-standard section-padding-standard max-md:pt-4 max-md:pb-0">
-        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-16 md:mb-8 mb-6">
+        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold text-center lg:mb-16 md:mb-8 mb-6">
           Why Choose Our <span className="text-secondary">Services</span>
         </h2>
 

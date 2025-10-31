@@ -12,7 +12,7 @@ function QuickPreviewBlogsSection() {
     <section className="bg-background section-padding-standard max-md:pt-4">
       <div className="layout-standard section-padding-standard">
         <div className="text-center lg:mb-10 md:mb-8 mb-4">
-          <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold md:mb-4 mb-2">
+          <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold md:mb-4 mb-2">
             Our Latest{" "}
             <span className="text-secondary">Insights & Resources</span>
           </h2>

@@ -30,7 +30,7 @@ function WhyChooseOurPricingSection() {
       >
         <motion.h2
           variants={itemVariants}
-          className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-10 md:mb-8 mb-6"
+          className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold text-center lg:mb-10 md:mb-8 mb-6"
         >
           Why Choose Our <span className="text-secondary">Pricing</span>
         </motion.h2>

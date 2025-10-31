@@ -30,7 +30,7 @@ function WhyChooseOurFreeAuditSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-10 md:mb-8 mb-6"
+          className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold text-center lg:mb-10 md:mb-8 mb-6"
         >
           What&apos;s Included in Your{" "}
           <span className="text-secondary">Free Audit</span>

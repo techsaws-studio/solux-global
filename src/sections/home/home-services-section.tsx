@@ -17,13 +17,15 @@ function HomeServicesSection() {
   return (
     <section className="section-padding-standard bg-secondary-background">
       <div className="layout-standard section-padding-standard max-md:pt-4 max-md:mb-0">
-        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-16 md:mb-8 mb-6">
+        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold text-center lg:mb-16 md:mb-8 mb-6">
           Discover Our{" "}
           <span className="text-secondary">Customize Services</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4
-        ">
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4
+        "
+        >
           {HomeServicesSectionData.map((service, index) => (
             <div
               key={index}
