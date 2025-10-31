@@ -26,7 +26,7 @@ function HomeHeroSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <h1 className="text-heading lg:text-6xl text-2xl max-md:text-center lg:leading-[110%] font-dm_sans font-medium max-w-[80%]">
+          <h1 className="text-heading lg:text-4xl text-2xl max-md:text-center lg:leading-[110%] font-dm_sans font-medium max-w-[80%]">
             Your Trusted Partner for Seamless{" "}
             <span className="text-primary">
               Medical Billing & Coding in the USA

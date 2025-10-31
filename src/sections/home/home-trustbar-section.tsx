@@ -35,7 +35,7 @@ export default function HomeTrustbarSection() {
   ];
 
   return (
-    <div className="relative my-8 lg:-mt-[4.6rem] z-10">
+    <div className="relative my-8 z-10">
       <div className="mx-auto lg:max-w-5xl layout-standard">
         <div className="bg-white lg:rounded-full rounded-lg shadow-lg border border-border">
           <div className="grid lg:grid-cols-4 grid-cols-2 gap-6 lg:p-8 p-4">
