@@ -3,9 +3,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { ValuesSectionData } from "@/data/containers.about-page-data";
+import { ContactDetailSectionData } from "@/data/containers.contact-us-page-data";
 
-function ValuesSection() {
+function ContactDetailSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -20,7 +20,7 @@ function ValuesSection() {
   };
 
   return (
-    <section className="bg-secondary-background section-padding-standard">
+    <section className="bg-background section-padding-standard max-md:pt-4">
       <motion.div
         className="layout-standard section-padding-standard"
         variants={containerVariants}
@@ -32,20 +32,21 @@ function ValuesSection() {
           variants={itemVariants}
           className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-10 md:mb-8 mb-6"
         >
-          Solux Global <span className="text-secondary">Core Values</span>
+          We Are Here For <span className="text-secondary">You</span>
         </motion.h2>
 
         <motion.div
           variants={containerVariants}
           className="lg:flex lg:justify-between md:gap-4 gap-6 grid md:grid-cols-2 grid-cols-1"
         >
-          {ValuesSectionData.map((value, index) => {
+          {ContactDetailSectionData.map((value, index) => {
             const IconComponent = value.icon;
+
             return (
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className={`${value.bgColor} col-span-1 flex flex-col items-center justify-start lg:w-[19.1%] rounded-2xl p-8 border text-center hover:shadow-lg transition-shadow duration-300`}
+                className={`${value.bgColor} col-span-1 flex flex-col items-center justify-start lg:w-full rounded-2xl p-8 border text-center hover:shadow-lg transition-shadow duration-300`}
               >
                 <div className="flex justify-center mb-6">
                   <IconComponent className={`w-14 h-14 ${value.iconColor}`} />
@@ -65,4 +66,4 @@ function ValuesSection() {
   );
 }
 
-export default ValuesSection;
+export default ContactDetailSection;

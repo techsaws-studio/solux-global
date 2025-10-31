@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 import { WhyChooseUsSectionData } from "@/data/containers.about-page-data";
 
-import AboutWhyChooseUsImg from "../../../public/images/about-why-choose-us-img.png";
+import AboutWhyChooseUsSectionImg from "../../../public/images/about-why-choose-us-section-img.png";
 
 function WhyChooseUsSection() {
   return (
@@ -63,7 +63,7 @@ function WhyChooseUsSection() {
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <Image src={AboutWhyChooseUsImg} alt="Why Choose Us" fill />
+        <Image src={AboutWhyChooseUsSectionImg} alt="Why Choose Us" fill />
       </motion.div>
     </section>
   );

@@ -9,7 +9,7 @@ export const HeaderNavLinks = [
   },
   {
     title: "Our Blogs",
-    path: "/our-blogs",
+    path: "/blogs",
   },
   {
     title: "Pricing",

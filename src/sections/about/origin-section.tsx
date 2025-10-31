@@ -11,7 +11,7 @@ function OriginSection() {
 
   return (
     <section className="layout-standard section-margin-standard">
-      <h2 className="lg:text-6xl md:text-4xl text-2xl font-dm_sans font-medium text-center lg:mb-10 md:mb-8 mb-6">
+      <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center lg:mb-10 md:mb-8 mb-6">
         About <span className="text-secondary">Solux Global</span>
       </h2>
 
@@ -52,7 +52,7 @@ function OriginSection() {
             </div>
 
             <div className="w-full md:w-1/2 text-left">
-              <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold text-heading font-dm_sans md:mb-4 mb-2">
+              <h3 className="md:text-4xl text-xl font-medium text-heading font-dm_sans md:mb-4 mb-2">
                 {OriginSectionData[activeTab].title}
               </h3>
               <p className="md:text-base text-sm leading-relaxed">

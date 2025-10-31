@@ -1,11 +1,12 @@
 import React from "react";
 
 import AboutOriginSection from "@/sections/about/origin-section";
-
-import PagesHeroSection from "@/components/partials/pages-hero-section";
 import WhyChooseUsSection from "@/sections/about/why-choose-us-section";
 import ValuesSection from "@/sections/about/values-section";
 import DifferenceSection from "@/sections/about/difference-section";
+
+import PagesHeroSection from "@/components/partials/pages-hero-section";
+import CTASection from "@/components/partials/cta-section";
 
 function AboutPage() {
   return (
@@ -19,7 +20,8 @@ function AboutPage() {
       <WhyChooseUsSection />
       <ValuesSection />
       <DifferenceSection />
-    </main>
+      <CTASection /> 
+    </main> 
   );
 }
 

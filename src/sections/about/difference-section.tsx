@@ -28,7 +28,7 @@ function DifferenceSection() {
         viewport={{ once: true }}
         className="text-center"
       >
-        <h2 className="lg:text-6xl md:text-4xl text-2xl font-dm_sans font-medium text-center mb-4">
+        <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-bold text-center mb-4">
           The <span className="text-secondary">Solux Global</span> Difference
         </h2>
 

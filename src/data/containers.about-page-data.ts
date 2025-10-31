@@ -8,7 +8,6 @@ import {
   TrendingUp,
   Users2,
 } from "lucide-react";
-
 import OriginSectionImg01 from "../../public/images/origin-section-img-01.jpg";
 import OriginSectionImg02 from "../../public/images/origin-section-img-02.jpg";
 import OriginSectionImg03 from "../../public/images/origin-section-img-03.jpg";

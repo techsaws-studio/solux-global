@@ -28,7 +28,7 @@ function PagesHeroSection({
           <h1
             className={cn(
               titleClass,
-              "font-medium text-heading font-dm_sans lg:text-6xl md:text-4xl text-2xl !leading-[130%] lg:max-w-[80%] w-full"
+              "font-medium text-heading font-dm_sans lg:text-6xl md:text-4xl text-3xl !leading-[130%] lg:max-w-[80%] w-full"
             )}
           >
             {title} <span className="text-primary">{highlightText}</span>

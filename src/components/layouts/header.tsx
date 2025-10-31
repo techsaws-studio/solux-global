@@ -70,7 +70,7 @@ export default function Header() {
             Contact Us
           </Button>
 
-          <Button className="h-[43px] border-2 border-primary px-8 text-base font-dm_sans font-semibold bg-transparent text-primary hover:bg-primary hover:text-primary-foreground rounded-full">
+          <Button className="h-[45px] bg-black px-8 text-base font-dm_sans font-medium hover:bg-secondary rounded-full">
             Get Demo
           </Button>
         </div>
@@ -117,7 +117,7 @@ export default function Header() {
                   Contact Us
                 </Button>
 
-                <Button className="h-[43px] max-md:w-full md:px-8 border-2 border-primary text-sm font-dm_sans font-semibold bg-transparent text-primary hover:bg-primary hover:text-primary-foreground rounded-full">
+                <Button className="h-[45px] bg-black max-md:w-full md:px-8 text-sm font-dm_sans font-medium rounded-full">
                   Get Demo
                 </Button>
               </div>
