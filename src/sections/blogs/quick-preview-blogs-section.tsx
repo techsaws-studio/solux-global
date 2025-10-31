@@ -33,7 +33,7 @@ function QuickPreviewBlogsSection() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative bg-card rounded-2xl md:rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-border w-full md:max-w-lg"
             >
-              <Link href={`/blog/${post.slug}`}>
+              <Link href={`/blogs/${post.slug}`}>
                 <div className="relative h-48 md:h-56 w-full overflow-hidden">
                   <Image
                     src={post.image}

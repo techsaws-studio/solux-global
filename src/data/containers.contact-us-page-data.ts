@@ -4,8 +4,7 @@ export const ContactDetailSectionData = [
   {
     icon: MapPin,
     title: "Our Office",
-    description:
-      "Solux Global\n6901 Schubert Colleyville,\nTexas, TX 76034, USA",
+    description: "Solux Global\n30 N Gould St Ste R Sheridan, WY 82801, USA",
     bgColor: "bg-green-100",
     iconColor: "text-green-500",
   },
@@ -19,7 +18,7 @@ export const ContactDetailSectionData = [
   {
     icon: Phone,
     title: "Call Us",
-    description: "+1 (647) 492-3515",
+    description: "+1 (307) 310 9666",
     bgColor: "bg-orange-100",
     iconColor: "text-orange-500",
   },
