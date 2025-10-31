@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { HeaderNavLinks } from "@/data/components.layouts-data";
@@ -20,6 +20,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const Pathname = usePathname();
+  const router = useRouter();
+
+  const NavigateTo = (path: string) => {
+    router.push(path);
+  };
 
   return (
     <header
@@ -66,11 +71,17 @@ export default function Header() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-2">
-          <Button className="h-[45px] px-8 text-base font-dm_sans font-medium hover:bg-primary-hover rounded-full">
+          <Button
+            onClick={() => NavigateTo("/contact-us")}
+            className="h-[45px] px-8 text-base font-dm_sans font-medium hover:bg-primary-hover rounded-full"
+          >
             Contact Us
           </Button>
 
-          <Button className="h-[45px] bg-black px-8 text-base font-dm_sans font-medium hover:bg-secondary rounded-full">
+          <Button
+            onClick={() => NavigateTo("/free-audit")}
+            className="h-[45px] bg-black px-8 text-base font-dm_sans font-medium hover:bg-secondary rounded-full"
+          >
             Get Demo
           </Button>
         </div>
@@ -113,11 +124,17 @@ export default function Header() {
               ))}
 
               <div className="mt-4 flex items-center gap-2 max-md:flex-col">
-                <Button className="h-[45px] max-md:w-full md:px-8 text-sm font-dm_sans font-medium rounded-full">
+                <Button
+                  onClick={() => NavigateTo("/contact-us")}
+                  className="h-[45px] max-md:w-full md:px-8 text-sm font-dm_sans font-medium rounded-full"
+                >
                   Contact Us
                 </Button>
 
-                <Button className="h-[45px] bg-black max-md:w-full md:px-8 text-sm font-dm_sans font-medium rounded-full">
+                <Button
+                  onClick={() => NavigateTo("/free-audit")}
+                  className="h-[45px] bg-black max-md:w-full md:px-8 text-sm font-dm_sans font-medium rounded-full"
+                >
                   Get Demo
                 </Button>
               </div>
