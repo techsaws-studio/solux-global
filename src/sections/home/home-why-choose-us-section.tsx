@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 import { HomeWhyChooseUsSectionData } from "@/data/containers.home-page-data";
 
-import HomeWhyChooseUsSectionImg from "../../../public/images/Home-why-choose-us-section-img.png";
+import HomeWhyChooseUsSectionImg from "../../../public/images/home-why-choose-us-section-img.png";
 
 function HomeWhyChooseUsSection() {
   return (
