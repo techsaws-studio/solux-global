@@ -1,8 +1,43 @@
+"use client";
+
 import {
+  BadgeCheck,
+  BarChart3,
+  Briefcase,
+  Building2,
+  Calendar,
+  CheckCircle,
+  CheckCircle2,
+  ClipboardCheck,
+  ClipboardList,
+  Clock,
+  DollarSign,
+  FileCheck2,
+  FileCode,
   FileSpreadsheet,
+  FileText,
+  Globe,
+  Layers,
+  Mail,
+  MapPin,
+  Monitor,
+  MousePointerClick,
+  PhoneCall,
+  PiggyBank,
+  RefreshCcw,
+  Search,
+  Send,
+  Settings,
+  Share2,
   ShieldCheck,
+  Sliders,
+  Star,
   TrendingUp,
+  UserCheck,
+  Users,
   Users2,
+  XCircle,
+  Zap,
 } from "lucide-react";
 
 export const ServicesDetailTabSectionData = [
@@ -35,7 +70,7 @@ export const ServicesDetailTabSectionData = [
     title: "Credentialing Services",
     description:
       "Get credentialed quickly with insurance networks and payers. Our experts handle the paperwork and follow-ups, ensuring your practice is enrolled and eligible for reimbursements without delays.",
-    link: "/services/credentialling-state-licensing",
+    link: "/services/credentialing",
   },
 
   {
@@ -43,7 +78,7 @@ export const ServicesDetailTabSectionData = [
     title: "State Licensing Assistance",
     description:
       "Expand your practice with confidence. We help healthcare providers meet state licensing requirements, keeping your operations fully compliant with regulatory standards.",
-    link: "/services/credentialing",
+    link: "/services/state-licensing",
   },
 
   {
@@ -103,5 +138,575 @@ export const ServicesWhyChooseUsSectionData = [
       "Work with certified billing professionals who provide 24/7 assistance, dedicated account management, and performance transparency.",
     bgColor: "bg-rose-50",
     themColor: "text-rose-600",
+  },
+];
+
+export const ArDenialManagementServiceIncludeSectionData = [
+  {
+    title: "Claim Denial Analysis & Resolution",
+    description:
+      "Identify root causes, correct errors, and resubmit claims for faster resolution.",
+    icon: Search,
+  },
+  {
+    title: "Aging AR Recovery",
+    description:
+      "Efficient follow-up on unpaid claims to recover lost revenue and improve cash flow.",
+    icon: RefreshCcw,
+  },
+  {
+    title: "Payer Follow-Up",
+    description:
+      "Persistent and professional communication with insurance companies to ensure timely payments.",
+    icon: PhoneCall,
+  },
+  {
+    title: "Appeals Management",
+    description:
+      "Strong, evidence-based appeals to overturn denied claims and secure rightful reimbursements.",
+    icon: FileText,
+  },
+  {
+    title: "Trend Reporting",
+    description:
+      "Analyze denial patterns and payer behaviors to prevent future issues.",
+    icon: BarChart3,
+  },
+  {
+    title: "Revenue Optimization",
+    description:
+      "Customized strategies designed to boost reimbursement rates and minimize leakage.",
+    icon: TrendingUp,
+  },
+];
+
+export const CredentialingServiceIncludeSectionData = [
+  {
+    title: "Provider Enrollment",
+    description:
+      "Quick and accurate enrollment with Medicare, Medicaid, and commercial payers.",
+    icon: ClipboardCheck,
+  },
+  {
+    title: "Re-Credentialing",
+    description: "Stay updated and avoid interruptions in reimbursements.",
+    icon: RefreshCcw,
+  },
+  {
+    title: "CAQH Profile Management",
+    description: "Complete setup, updates, and attestation for providers.",
+    icon: FileText,
+  },
+  {
+    title: "Insurance Panel Applications",
+    description: "Apply and gain approval across multiple networks.",
+    icon: Building2,
+  },
+  {
+    title: "State Licensing Assistance",
+    description: "Support with new applications and renewals.",
+    icon: BadgeCheck,
+  },
+  {
+    title: "Ongoing Credentialing Maintenance",
+    description: "Ensure compliance and avoid claim denials.",
+    icon: ShieldCheck,
+  },
+];
+
+export const DigitalMarketingServiceIncludeSectionData = [
+  {
+    title: "Search Engine Optimization (SEO)",
+    description:
+      "Rank higher on Google with targeted healthcare keywords and optimized content strategies.",
+    icon: Search,
+  },
+  {
+    title: "Pay-Per-Click Advertising (PPC)",
+    description:
+      "Run effective Google Ads and social media campaigns that attract qualified healthcare leads.",
+    icon: MousePointerClick,
+  },
+  {
+    title: "Social Media Management",
+    description:
+      "Build engagement and trust on platforms like Facebook, Instagram, and LinkedIn.",
+    icon: Share2,
+  },
+  {
+    title: "Content Marketing",
+    description:
+      "Publish valuable blogs, articles, and patient education content to establish credibility and authority.",
+    icon: FileText,
+  },
+  {
+    title: "Website Design & Optimization",
+    description:
+      "Create mobile-friendly, SEO-optimized websites for improved user experience and visibility.",
+    icon: Monitor,
+  },
+  {
+    title: "Reputation Management",
+    description:
+      "Monitor, manage, and enhance your online reviews and patient feedback across all platforms.",
+    icon: Star,
+  },
+  {
+    title: "Email Marketing Campaigns",
+    description:
+      "Engage patients through newsletters, reminders, and promotional offers to build loyalty.",
+    icon: Mail,
+  },
+];
+
+export const DrugRehabilitationBillingServiceIncludeSectionData = [
+  {
+    title: "Accurate Coding & Documentation",
+    description:
+      "Proper coding for substance abuse treatment, therapy sessions, and rehab services using ICD-10, CPT, and HCPCS.",
+    icon: FileText,
+  },
+  {
+    title: "Insurance Verification & Pre-Authorization",
+    description:
+      "We confirm patient eligibility and secure pre-approvals to avoid delays in payment.",
+    icon: ClipboardCheck,
+  },
+  {
+    title: "Claim Submission & Tracking",
+    description:
+      "Timely filing and real-time tracking to ensure faster reimbursements.",
+    icon: Send,
+  },
+  {
+    title: "Denial Prevention & Management",
+    description:
+      "Identify and resolve common rehab billing errors that lead to denied claims.",
+    icon: RefreshCcw,
+  },
+  {
+    title: "Patient Billing Support",
+    description:
+      "Clear, patient-friendly billing for easier collections and better transparency.",
+    icon: Users,
+  },
+  {
+    title: "Compliance & Confidentiality",
+    description:
+      "Strict adherence to HIPAA, Medicare, and state-specific billing regulations.",
+    icon: ShieldCheck,
+  },
+];
+
+export const MedicalBillingCodingServiceIncludeSectionData = [
+  {
+    title: "Accurate Coding (CPT, ICD-10, HCPCS)",
+    description:
+      "Our certified coders ensure every claim is coded correctly to minimize errors and maximize reimbursements.",
+    icon: FileCode,
+  },
+  {
+    title: "Claims Submission & Tracking",
+    description:
+      "Fast and efficient submission with active follow-up to prevent delays.",
+    icon: Send,
+  },
+  {
+    title: "Denial Management",
+    description:
+      "Proactive identification, correction, and resubmission of denied claims.",
+    icon: XCircle,
+  },
+  {
+    title: "Patient Billing & Collections",
+    description:
+      "Transparent, patient-friendly billing solutions to improve collections and satisfaction.",
+    icon: Users,
+  },
+  {
+    title: "Revenue Cycle Management (RCM)",
+    description:
+      "Comprehensive oversight from claim creation to final payment.",
+    icon: BarChart3,
+  },
+  {
+    title: "HIPAA-Compliant Practices",
+    description:
+      "We protect patient data with strict adherence to HIPAA regulations.",
+    icon: ShieldCheck,
+  },
+];
+
+export const MedicalScribbingServiceIncludeSectionData = [
+  {
+    title: "Accurate Coding (CPT, ICD-10, HCPCS)",
+    description:
+      "Our certified coders ensure every claim is coded correctly to minimize errors and maximize reimbursements.",
+    icon: FileCode,
+  },
+  {
+    title: "Claims Submission & Tracking",
+    description:
+      "Fast and efficient submission with active follow-up to prevent delays.",
+    icon: Send,
+  },
+  {
+    title: "Denial Management",
+    description:
+      "Proactive identification, correction, and resubmission of denied claims.",
+    icon: XCircle,
+  },
+  {
+    title: "Patient Billing & Collections",
+    description:
+      "Transparent, patient-friendly billing solutions to improve collections and satisfaction.",
+    icon: Users,
+  },
+  {
+    title: "Revenue Cycle Management (RCM)",
+    description:
+      "Comprehensive oversight from claim creation to final payment.",
+    icon: BarChart3,
+  },
+  {
+    title: "HIPAA-Compliant Practices",
+    description:
+      "We protect patient data with strict adherence to HIPAA regulations.",
+    icon: ShieldCheck,
+  },
+];
+
+export const VirtualAssistanceServiceIncludeSectionData = [
+  {
+    title: "Administrative Support",
+    description:
+      "Managing emails, phone calls, scheduling, and patient communication.",
+    icon: PhoneCall,
+  },
+  {
+    title: "Billing & Claims Support",
+    description:
+      "Assisting with claim submissions, follow-ups, and insurance verifications.",
+    icon: ClipboardList,
+  },
+  {
+    title: "Medical Transcription & Documentation",
+    description:
+      "Accurately recording patient encounters and updating EMR/EHR systems.",
+    icon: FileText,
+  },
+  {
+    title: "Patient Follow-Up & Reminders",
+    description:
+      "Appointment confirmations, payment reminders, and post-care follow-ups.",
+    icon: Calendar,
+  },
+  {
+    title: "Data Entry & Reporting",
+    description:
+      "Organizing records, preparing reports, and managing healthcare databases.",
+    icon: BarChart3,
+  },
+  {
+    title: "24/7 Support Availability",
+    description:
+      "Flexible assistance to fit your practice hours and patient needs.",
+    icon: Clock,
+  },
+];
+
+export const StateLicensingServiceIncludeSectionData = [
+  {
+    title: "New License Applications",
+    description:
+      "Complete support for physicians, NPs, PAs, and other healthcare providers applying for new state licenses.",
+    icon: FileText,
+  },
+  {
+    title: "License Renewals",
+    description:
+      "Proactive renewal management to ensure licenses are updated on time and without any lapse in authorization.",
+    icon: RefreshCcw,
+  },
+  {
+    title: "Multi-State Licensing",
+    description:
+      "Simplified process for providers expanding their practice across multiple states with efficient coordination and tracking.",
+    icon: MapPin,
+  },
+  {
+    title: "Verification & Documentation",
+    description:
+      "Comprehensive assistance with education, employment, and background verification required for state licensing.",
+    icon: ClipboardCheck,
+  },
+  {
+    title: "DEA Registration & Renewals",
+    description:
+      "End-to-end support for obtaining and renewing DEA registrations for controlled substance prescribing.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Compliance Monitoring",
+    description:
+      "Ongoing compliance tracking to ensure all licensing and regulatory requirements are met, avoiding penalties or delays.",
+    icon: CheckCircle,
+  },
+];
+
+export const WhyChooseIndividualServiceSectionVirtualAssistantData = [
+  {
+    icon: DollarSign,
+    title: "Cost Savings",
+    description:
+      "Eliminate the high costs of in-house staff with our affordable outsourcing model.",
+  },
+  {
+    icon: BarChart3,
+    title: "Increased Productivity",
+    description: "Free up your team’s time to focus on patient care.",
+  },
+  {
+    icon: UserCheck,
+    title: "Trained Professionals",
+    description:
+      "Virtual assistants skilled in healthcare operations, HIPAA compliance, and EMR systems.",
+  },
+  {
+    icon: Layers,
+    title: "Scalable Solutions",
+    description: "Add or reduce support as your practice grows.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Secure & Confidential",
+    description:
+      "Patient data is always handled with strict compliance and security protocols.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionMedicalScribbingData = [
+  {
+    icon: TrendingUp,
+    title: "Boost Revenue",
+    description:
+      "Practices partnering with us see revenue growth of up to 30% within the first 90 days.",
+  },
+  {
+    icon: Clock,
+    title: "Save Time & Costs",
+    description: "Eliminate the overhead of in-house billing staff.",
+  },
+  {
+    icon: CheckCircle2,
+    title: "Fewer Errors, Faster Payments",
+    description:
+      "Advanced technology + expert coders = smoother reimbursements.",
+  },
+  {
+    icon: Settings,
+    title: "Custom Solutions",
+    description:
+      "Tailored strategies for solo practices, multi-specialty clinics, and large healthcare facilities.",
+  },
+  {
+    icon: BarChart3,
+    title: "Transparent Reporting",
+    description:
+      "Real-time analytics and performance tracking to keep you in control.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionMedicalBillingCodingData = [
+  {
+    icon: TrendingUp,
+    title: "Boost Revenue",
+    description:
+      "Practices partnering with us see revenue growth of up to 30% within the first 90 days.",
+  },
+  {
+    icon: Clock,
+    title: "Save Time & Costs",
+    description: "Eliminate the overhead of in-house billing staff.",
+  },
+  {
+    icon: CheckCircle2,
+    title: "Fewer Errors, Faster Payments",
+    description:
+      "Advanced technology + expert coders = smoother reimbursements.",
+  },
+  {
+    icon: Settings,
+    title: "Custom Solutions",
+    description:
+      "Tailored strategies for solo practices, multi-specialty clinics, and large healthcare facilities.",
+  },
+  {
+    icon: BarChart3,
+    title: "Transparent Reporting",
+    description:
+      "Real-time analytics and performance tracking to keep you in control.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionDrugRehabilitationBillingData = [
+  {
+    icon: Briefcase,
+    title: "Industry Expertise",
+    description:
+      "Our team is highly experienced in drug treatment and behavioral health billing.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Revenue Growth",
+    description:
+      "Rehab facilities partnering with us report 20–30% increases in collections.",
+  },
+  {
+    icon: FileCheck2,
+    title: "Error-Free Processing",
+    description:
+      "We minimize coding mistakes and maximize payer reimbursements.",
+  },
+  {
+    icon: PiggyBank,
+    title: "Cost-Effective Outsourcing",
+    description:
+      "Save thousands in overhead by eliminating in-house billing staff.",
+  },
+  {
+    icon: BarChart3,
+    title: "Full Transparency",
+    description:
+      "Access detailed reports to track claims, payments, and practice performance.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionDigitalMarketingData = [
+  {
+    icon: Briefcase,
+    title: "Industry Expertise",
+    description:
+      "We specialize in digital marketing for healthcare providers, medical practices, and wellness brands.",
+  },
+  {
+    icon: Users,
+    title: "Patient-Centric Approach",
+    description:
+      "Our marketing strategies are designed to connect with patients, build trust, and improve engagement.",
+  },
+  {
+    icon: Sliders,
+    title: "Customized Campaigns",
+    description:
+      "We create tailored marketing solutions that fit the unique goals and specialties of your practice.",
+  },
+  {
+    icon: BarChart3,
+    title: "Data-Driven Results",
+    description:
+      "Access transparent reports with measurable ROI, conversions, and campaign performance insights.",
+  },
+  {
+    icon: Globe,
+    title: "All-in-One Service",
+    description:
+      "From SEO to PPC, content creation, and social media — we manage your entire digital presence under one roof.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionCredentialingData = [
+  {
+    icon: Clock,
+    title: "Faster Approvals",
+    description: "Minimize delays and start billing payers sooner.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Compliance Guaranteed",
+    description:
+      "Adherence to state and federal requirements, including HIPAA and CMS.",
+  },
+  {
+    icon: DollarSign,
+    title: "Revenue Protection",
+    description: "Avoid claim rejections due to credentialing errors.",
+  },
+  {
+    icon: FileCheck2,
+    title: "Time-Saving",
+    description: "Eliminate hours of administrative paperwork.",
+  },
+  {
+    icon: Users,
+    title: "Dedicated Support",
+    description:
+      "Credentialing experts available for continuous updates and monitoring.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionArDenialManagementData = [
+  {
+    icon: DollarSign,
+    title: "Faster Cash Flow",
+    description:
+      "Reduce AR aging and accelerate collections through proactive follow-ups and process optimization.",
+  },
+  {
+    icon: XCircle,
+    title: "Fewer Denials",
+    description:
+      "Our experts ensure claims are accurately submitted the first time to minimize denials and delays.",
+  },
+  {
+    icon: BarChart3,
+    title: "Data-Driven Insights",
+    description:
+      "Identify recurring denial patterns and implement strategies to prevent future issues.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Compliance-Focused",
+    description:
+      "HIPAA-compliant workflows that align with payer regulations and ensure data security.",
+  },
+  {
+    icon: Users,
+    title: "Dedicated Specialists",
+    description:
+      "A skilled team solely focused on managing AR and minimizing denials for your practice.",
+  },
+];
+
+export const WhyChooseIndividualServiceSectionStateLicensingData = [
+  {
+    icon: Clock,
+    title: "Time-Saving",
+    description:
+      "We handle the complex paperwork and coordination so you can stay focused on patient care.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Accuracy & Compliance",
+    description:
+      "Our licensing experts ensure every application is error-free and fully compliant with all state regulations.",
+  },
+  {
+    icon: Zap,
+    title: "Faster Processing",
+    description:
+      "Accelerate approval timelines and minimize administrative bottlenecks with our streamlined approach.",
+  },
+  {
+    icon: Briefcase,
+    title: "Multi-Specialty Support",
+    description:
+      "Comprehensive licensing support for physicians, behavioral health providers, therapists, and other specialists.",
+  },
+  {
+    icon: Users,
+    title: "Dedicated Specialists",
+    description:
+      "Receive personalized, end-to-end guidance from our team of experienced licensing professionals.",
   },
 ];

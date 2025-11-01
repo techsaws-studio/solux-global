@@ -167,15 +167,6 @@ function Footer() {
                   30 N Gould St Ste R Sheridan <br /> WY 82801
                 </p>
               </div>
-
-              <div>
-                <h4 className="text-secondary font-semibold mb-2 underline underline-offset-4">
-                  Pakistan
-                </h4>
-                <p className="text-white/70 text-sm md:text-base leading-relaxed">
-                  Karachi, Pakistan
-                </p>
-              </div>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ function HomeTestimonialSection() {
         >
           <div>
             <h2 className="lg:text-6xl md:text-4xl text-3xl font-dm_sans font-semibold mb-2">
-              Customer <span className="text-secondary">Testimonial</span>
+              Customer <span className="text-secondary">Testimoni</span>
             </h2>
             <p className="text-base font-medium md:text-lg text-muted-foreground italic">
               You shouldn&apos;t only{" "}

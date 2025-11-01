@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/accordion";
 
 import { Minus, Plus, Users } from "lucide-react";
-import HomeFaqSectionImg from "../../../public/images/home-faq-section-img.png";
+import HomeFaqSectionImg from "../../../public/images/home-faq-section-img.jpg";
 
 function HomeFAQSection() {
   const [openItem, setOpenItem] = useState<string | null>(null);
@@ -33,7 +33,7 @@ function HomeFAQSection() {
 
       <section className="section-padding-standard bg-background">
         <div className="layout-standard section-padding-standard max-md:pt-4 max-md:mb-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:mb-16 mb-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:mb-16 mb-4">
             {HomeFAQSectionData01.map((feature, index) => {
               const Icon = feature.icon;
               return (
@@ -47,7 +47,7 @@ function HomeFAQSection() {
                   <motion.div
                     whileHover={{ scale: 1.02 }}
                     transition={{ duration: 0.3 }}
-                    className="flex items-center gap-4 p-6 rounded-3xl bg-card border border-border shadow-sm cursor-pointer"
+                    className="flex items-center max-md:flex-col gap-4 p-6 rounded-3xl bg-card border border-border shadow-sm cursor-pointer max-md:h-[150px]"
                   >
                     <motion.div
                       whileHover={{ rotateY: 180 }}
@@ -58,7 +58,7 @@ function HomeFAQSection() {
                       <Icon className="md:w-9 w-6 md:h-9 h-6" />
                     </motion.div>
 
-                    <h3 className="font-medium text-base md:text-lg text-heading font-dm_sans whitespace-nowrap leading-tight">
+                    <h3 className="font-medium text-sm md:text-lg text-heading font-dm_sans leading-tight max-md:text-center">
                       {feature.title}
                     </h3>
                   </motion.div>
